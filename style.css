@@ -84,9 +84,10 @@ p{line-height:1.7}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}
 .footer-logo{font-size:1.05rem;font-weight:800;color:var(--dark-t);letter-spacing:-.02em;display:block;margin-bottom:10px}
 .footer-brand p{font-size:.875rem;color:var(--dark-t2);max-width:220px;line-height:1.6;margin-bottom:20px}
-.footer-social{display:flex;gap:12px}
+.footer-social{display:flex;gap:12px;flex-direction:column}
 .footer-social a{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;background:var(--dark-m);color:var(--dark-t2);font-size:.8rem;font-weight:600;border-radius:var(--r-pill);border:1px solid var(--dark-b);transition:color .2s,border-color .2s}
 .footer-social a:hover{color:var(--dark-t);border-color:var(--dark-t2)}
+.footer-social a svg{margin-right:6px;vertical-align:middle}
 .footer-col h4{color:var(--dark-t2);margin-bottom:16px}
 .footer-col a{display:block;color:var(--dark-t2);font-size:.875rem;margin-bottom:10px;transition:color .2s}
 .footer-col a:hover{color:var(--dark-t)}
@@ -111,7 +112,7 @@ p{line-height:1.7}
 .btn-ghost:hover{color:var(--dark-t);transform:none}
 .btn-appstore{display:inline-flex;align-items:center;gap:13px;padding:14px 26px;background:#fff;border-radius:15px;box-shadow:0 4px 24px rgba(0,0,0,.2)}
 .btn-appstore:hover{box-shadow:0 12px 36px rgba(0,0,0,.3);transform:translateY(-3px);opacity:1}
-.as-icon{font-size:1.7rem;line-height:1}
+.btn-appstore svg{width:28px;height:28px}
 .as-text{text-align:left}
 .as-text small{display:block;font-size:.62rem;font-weight:500;color:#555;margin-bottom:1px}
 .as-text strong{display:block;font-size:.95rem;font-weight:800;color:#000}
