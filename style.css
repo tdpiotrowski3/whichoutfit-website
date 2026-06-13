@@ -1,4 +1,4 @@
-"""/* WhichOutfit — Shared Stylesheet */
+/* WhichOutfit — Shared Stylesheet */
 
 /* ── TOKENS ─────────────────────────────────────────── */
 :root {
@@ -364,4 +364,4 @@ p{line-height:1.7}
 .feat-tag-blue{background:rgba(46,107,255,.1);color:var(--blue)}
 .feat-tag-green{background:rgba(22,185,129,.1);color:var(--green)}
 .feat-tag-teal{background:rgba(15,163,163,.1);color:var(--teal)}
-.feat-tag-gold{background:rgba(224,137,43,.1);color:#E0892B}"""
+.feat-tag-gold{background:rgba(224,137,43,.1);color:#E0892B}
